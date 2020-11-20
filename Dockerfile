@@ -1,7 +1,4 @@
 FROM python:3.8-slim
-FROM streamlit
-FROM transformers
-FROM transformers.pipelines
 
 COPY app.py app.py
 
